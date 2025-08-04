@@ -6,6 +6,10 @@ const camera =new THREE.PerspectiveCamera(10,window.innerWidth/window.innerHeigh
 camera.position.z=6;
 const scene=new THREE.Scene();
 let bee;
+window.addEventListener('resize',function(){
+    const camera =new THREE.PerspectiveCamera(10,window.innerWidth/window.innerHeight,0.1,1000);
+    renderer.setSize(window.innerWidth,window.innerHeight);
+});
 const renderer=new THREE.WebGLRenderer({alpha:true});
 const loader=new GLTFLoader();
 let mixer;
