@@ -306,6 +306,233 @@ z-index: 4;
   height: 100% !important;
   object-fit: cover;
 }
+#contact{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+.contact1{
+    width: 98vw;
+    height: 95vh;
+    border-radius: 12px;
+    background:rgb(36, 11, 11);
+}
+.play{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100%;
+    background: #6a6cbb;
+    text-align: center;
+    line-height: 20vh;
+    color: white;
+    font-size: 5.5rem;
+    z-index: 199;
+    position: absolute;
+    cursor: pointer;
+    transition: all 100ms;
+}
+.play:hover{
+    transform: scale(1.1);
+}
+#solutions{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#solutions .description{
+    color: white;
+}
+#solutions .title{
+    width: auto;
+letter-spacing: 1px;
+font-family: "Permanent Marker",sans-serif;
+text-transform: uppercase;
+position: 
+absolute;
+top: 14%;
+left: 5%;
+}
+.dd{
+    position: absolute;
+    width: 26vw;
+    height: 26vw;
+    border-radius: 17px;
+    background: url(./spped.png);
+    background-size: cover;
+    background-position: center;
+    right: 5%;
+    bottom: 5%;
+}
+#payment{
+    width: 30vw;
+    height: 70vh;
+    border-radius: 12px;
+    position: absolute;
+    right: 9%;
+    background: rgba(255,255,255,0.15);
+}
+.amount{
+    color: white;
+    font-size: 1rem;
+    width: 28vw;
+    height: 8vh;
+    text-align: center;
+    line-height: 8vh;
+    border:2px solid white;
+    border-radius: 42px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin-top: 4vh;
+    position: absolute;
+    top: 7%;
+  left: 4%;
+    z-index: 9;
+    background: transparent;
+}
+.credit{
+    color: white;
+    font-size: 1rem;
+    width: 28vw;
+    height: 8vh;
+    text-align: center;
+    line-height: 8vh;
+    border:2px solid white;
+    border-radius: 42px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin-top: 4vh;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    z-index: 9;
+    background: transparent;
+}
+#description1{
+    color: white;
+    font-size: 1rem;
+    width: 28vw;
+    height: auto;
+   
+    line-height: 8vh;
+    border:2px solid white;
+    background: transparent;
+    border-radius: 42px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin-top: 4vh;
+    position: absolute;
+    padding: 12PX;
+    top: 45%;
+    left: 2%;
+    z-index: 9;
+    background: transparent;
+}
+#payment .send{
+left: 36%;
+}
+
+.idea{
+    margin: 15vh 0vh 0vh 5vh;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 6rem;
+    width: 54%;
+    color: white;
+    font-weight: bold;
+}
+.em{
+    color: white;
+    font-size: 1rem;
+    width: 8vw;
+    height: 8vh;
+    text-align: center;
+    line-height: 8vh;
+    border:2px solid white;
+    border-radius: 42px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin-top: 1vh;
+    position: absolute;
+    left: 5%;
+}
+.em2{
+    color: white;
+    font-size: 1rem;
+    width: 18vw;
+    height: 8vh;
+    text-align: center;
+    line-height: 8vh;
+    border:2px solid white;
+    border-radius: 42px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin-top: 10vh;
+    position: absolute;
+    left: 5%;
+}
+.ph{
+    color: white;
+    font-size: 1rem;
+    width: 18vw;
+    height: 8vh;
+    text-align: center;
+    line-height: 8vh;
+    border:2px solid white;
+    border-radius: 42px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin-top: 1vh;
+    position: absolute;
+
+    left: 15%;
+}
+#eme{
+    color: white;
+    font-size: 1rem;
+    width: 28vw;
+    height: 8vh;
+    text-align: center;
+    line-height: 8vh;
+    border:2px solid white;
+    border-radius: 42px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin-top: 4vh;
+    position: absolute;
+    bottom: 12%;
+    left: 3%;
+    z-index: 9;
+    background: transparent;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.send{
+    color: white;
+    font-size: 1rem;
+    width: 8vw;
+    transition: 500ms;
+    height: 8vh;
+    text-align: center;
+    line-height: 8vh;
+    border:2px solid white;
+    border-radius: 42px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin-top: 4vh;
+    position: absolute;
+    bottom: 11%;
+    left: 32%;
+    z-index: 9;
+    cursor: pointer;
+    background: black;
+}
 .solution{
     position: relative;
     display: flex;
